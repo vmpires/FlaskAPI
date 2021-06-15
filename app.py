@@ -6,7 +6,7 @@ import json
 f = open('config.json', 'r')
 password = json.load(f)
 
-dbroute = "mysql://root:" + password["pass"] + "@localhost/youtube"
+dbroute = "mysql://root:" + password["key"] + "@localhost/youtube"
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
