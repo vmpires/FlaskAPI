@@ -1,2 +1,3 @@
 # FlaskAPI
-Flask API for learning purposes.
+
+### Flask API with fully CRUD functions on a MySQL Database (using SQL ALchemy) for learning purposes.
